@@ -1,6 +1,6 @@
 <template>
   <div>
-    Pokemon n° {{ this.$route.params.id }}
+    Pokemon n° 
   </div>
 </template>
 
