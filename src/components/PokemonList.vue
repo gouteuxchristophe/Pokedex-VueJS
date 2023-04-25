@@ -10,7 +10,7 @@ export default {
   setup() {
     const store = useStore()
     return {
-      data: computed(() => store.state.data.slice(1,20)),
+      data: computed(() => store.state.data.slice(1,21)),
     }
 
   },
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <div class='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 p-2'>
+  <div class='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 p-2 '>
   <Pokemon v-for='pokemon in data' :key='pokemon.id' :pokemon='pokemon'/>
   </div>
 </template>
