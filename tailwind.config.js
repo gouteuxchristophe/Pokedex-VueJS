@@ -1,13 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-  // tailwind.config.js
-  module.exports = {
-    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-     darkMode: false, // or 'media' or 'class'
-     theme: {
-       extend: {},
-     },
-     variants: {
-       extend: {},
-     },
-     plugins: [],
-   }
+module.exports = {
+  content: [
+    './src/*.{js,ts,jsx,tsx,mdx,vue}',
+    './src/components/*.{js,ts,jsx,tsx,mdx,vue}',
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+    },
+  },
+  plugins: [],
+};
