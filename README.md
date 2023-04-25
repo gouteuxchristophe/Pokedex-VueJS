@@ -1,4 +1,4 @@
-# vue-pokedex
+# vue-pokedex - En cours de développement
 
 This template should help get you started developing with Vue 3 in Vite.
 
