@@ -5,6 +5,7 @@ import axios from 'axios'
 import {useStore } from 'vuex'
 import { defineComponent } from 'vue'
 import type { Pokemon } from './stores/vuex'
+import '@/styles/globals.css';
 
 export default defineComponent ({
   components: {
