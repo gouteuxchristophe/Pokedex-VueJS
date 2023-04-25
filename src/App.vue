@@ -31,9 +31,9 @@ export default defineComponent ({
 </script>
 
 <template>
-      <div class='flex justify-around'>
+      <div class='flex justify-center items-center'>
         <h2 class='text-5xl'>Pokemon</h2>
-        <img role='logo'  class="circle responsive-img" src="./assets/pokemon-logo.jpg" alt="pokemon logo">
+        <img role='logo'  class="circle responsive-img" src="./assets/logo.png" alt="pokemon logo">
         <h2 class='text-5xl'>Apps</h2>
       </div>
 

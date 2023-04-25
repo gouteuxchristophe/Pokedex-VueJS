@@ -6,13 +6,13 @@
 </script>
 
 <template>
-     <div className=" bg-white rounded-lg shadow-lg p-4 flex flex-col w-full hover:rotate-12 duration-300 hover:scale-110 hover:bg-[#00b7ff]">
+     <div className=" bg-gray-500 rounded-lg shadow-lg p-4 flex flex-col w-full hover:rotate-12 duration-300 hover:scale-110 hover:bg-[#00b7ff]">
       <img
         :src='pokemon.sprites.shiny'
         alt='pokemon.name.fr'
       />
       <div className="py-2 text-center">
-        <h3 className="text-gray-500 text-center">
+        <h3 className="text-white text-center font-bold tracking-wider text-lg">
           {{pokemon.name.fr}}
         </h3>
       </div>
